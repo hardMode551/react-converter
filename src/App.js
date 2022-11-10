@@ -22,7 +22,7 @@ function App() {
       })
       .catch((error) => {
         console.warn(error);
-        alert('error');
+        alert('К сожалению конвертер валют сейчас не доступен. Возвращайтесь чуть позже');
       })
   }, [])
 
